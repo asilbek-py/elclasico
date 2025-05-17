@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadada;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+  .team-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .komanda {
+    background-color: #f0f2f5;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr td[colspan="3"] {
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .video-wrapper {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .comment-form,
+  .vote-form {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .comment-form label,
+  .vote-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .comment-form input,
+  .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment-form button,
+  .vote-form button {
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .voter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .radio-komanda {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
